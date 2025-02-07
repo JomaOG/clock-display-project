@@ -23,8 +23,8 @@
  * private Printer p1;
  * 
  * public void Method() {
- *     p1.print("filename", boolean)
- *     p1.getStatus();
+ *     p1.print("filename", true)
+ *     p1.getStatus(12);
  }
  *        
  */
