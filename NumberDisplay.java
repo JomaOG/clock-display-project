@@ -42,9 +42,16 @@ public class NumberDisplay
     {
         if(value < 10) {
             return "0" + value;
-        }
-        else {
+        } else {
             return "" + value;
+        }
+    }
+    
+    public int getDisplayValue12() {
+        if (value > 12) {
+            return value-12;
+        } else {
+            return value;
         }
     }
 
